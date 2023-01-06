@@ -2,11 +2,6 @@ import os
 os.environ['KERAS_BACKEND'] = 'theano'
 from Robots import *
 import SpikingNN as snn
-# from reinforcement_learning import q_learning
-from robotSounds import SOUNDS, soundEvent, PITCH
-from keras.models import Sequential
-from keras.layers import Dense, Activation
-from keras.optimizers import Adam
 
 
 CHEM_DICT = {}
