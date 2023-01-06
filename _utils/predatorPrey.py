@@ -1,5 +1,3 @@
-import os
-os.environ['KERAS_BACKEND'] = 'theano'
 from Robots import *
 import SpikingNN as snn
 
